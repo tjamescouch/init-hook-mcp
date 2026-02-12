@@ -1,0 +1,20 @@
+{
+  "name": "init-hook-mcp",
+  "version": "0.1.0",
+  "description": "MCP server providing agent memory lifecycle — constructor/destructor pattern for skill files",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
